@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinja Demo</title>
+</head>
+<body>
+    <header><h3>Jinja looping and conditionals</h3></header>
+    <main>
+        <ul>
+        {# Jinja For loop #}
+        {% for key in marks.keys() %}
+            <li>The marks of {{key}} is {{marks.get(key)}}</li>
+
+            {% if marks.get(key) > 5 %}
+            <span>Good Marks</span>
+        {% endif %}
+        {% endfor %}
+        
+    </ul>
+</main>
+</body>
+</html>

@@ -1,0 +1,4 @@
+#Full GUI based calci
+#Voice inputs
+#Currency exchanges
+#Space, Time, etc.. all the developer and engineering calculations.
