@@ -1,0 +1,64 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Amit",
+            "friends": [
+                2,
+                3
+            ],
+            "liked_pages": [
+                101
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Priya",
+            "friends": [
+                1,
+                4
+            ],
+            "liked_pages": [
+                102
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Sara",
+            "friends": [
+                2
+            ],
+            "liked_pages": [
+                104
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Amit",
+            "friends": [],
+            "liked_pages": []
+        }
+    ],
+    "pages": [
+        {
+            "id": 1,
+            "name": "Python Devs"
+        },
+        {
+            "id": 2,
+            "name": "DS Enthusiasts"
+        },
+        {
+            "id": 3,
+            "name": "AIML Community"
+        },
+        {
+            "id": 4,
+            "name": "Web Dev Hub"
+        },
+        {
+            "id": 4,
+            "name": "Web Dev"
+        }
+    ]
+}
