@@ -1,0 +1,11 @@
+Problem Statement: Bank Account
+
+00_bank.py-> dict to replicate and solve the problem.
+
+01.py -> Using Class to do the above. 
+## LEARNED: How classes and methods make the process efficient, safe and less error prone.
+
+02.py -> Instance vs Class Attributes.
+## LEARNED: Class attr: shared memory(shared with all objects)
+            Instance attr: private diary(can be modified in objects)
+
