@@ -10,8 +10,20 @@ list_1.extend(num)
 
 
 records = [["mark", 67], ["henry", 23], ["Mike", 42]]
-print(records[0][1])
+# print(records[0][1])
 
 scores = [score[1] for score in records]
-print(scores)
+# print(scores)
 # scores = [for score in records[]]
+
+
+#list comprehensions
+names = ["Milo", "Mark", "Mike", "Jina", "Thomas", "Blake"]
+vowels = "AEIOUaeiou"
+
+names_with_vowels = [name for name in names if any(vowel in name for vowel in vowels)]
+#for long lists and faster operation use set
+names_with_vowels_set = [name for name in names if set(name.lower()) & set('aeiou')]
+print(names)
+print(names_with_vowels)
+print(names_with_vowels_set)
