@@ -1,2 +1,0 @@
-Voice based news agent
-intelligent news classifier
